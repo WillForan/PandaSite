@@ -5,10 +5,21 @@
       <meta name="viewport" content="width=device-width" />
       <title>PandaBongz</title>
       <style type="text/css" media="screen">
-         img {align: center; vertical-align: center;}
+         html,body,#bg {
+            /* square image size */
+            width: 100%;
+            height: 100%;
+         }
+         #bg {
+            min-height: 600px;
+            min-width: 600px; 
+            background: url('img/panda.jpg') no-repeat 0 0;
+            background-position: center;
+         }
       </style>
    </head>
    <body>
-      <img src="img/panda.jpg" alt="panda"/>
+      <div id=bg>
+         <marquee>PandaBongz.com</marquee></div>
    </body>
 </html>
